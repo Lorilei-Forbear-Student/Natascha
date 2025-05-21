@@ -236,7 +236,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Natascha Sprite Sheet_0: -2716632569832956294
+      Natascha Sprite Sheet_1: 4921222164652032531
+      Natascha Sprite Sheet_2: 458943583396113481
+      Natascha Sprite Sheet_3: -4076594628058398848
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

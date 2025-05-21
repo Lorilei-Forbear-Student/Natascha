@@ -212,7 +212,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      slime spritesheet_0: 8467342831616069710
+      slime spritesheet_1: -4512802349042915934
+      slime spritesheet_2: -2481263634314034221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -7,63 +7,63 @@ namespace Natascha
 {
     public class ToggleChecks : MonoBehaviour
     {
-        public Ingredient flour;
-        public Ingredient egg;
-        public Ingredient sugar;
-        public Ingredient pecans;
-        public Ingredient butter;
+        public Ingredient ingredientOne;
+        public Ingredient ingredientTwo;
+        public Ingredient ingredientThree;
+        public Ingredient ingredientFour;
+        public Ingredient ingredientFive;
 
-        public Image flourCheckMark;
-        public Image eggCheckMark;
-        public Image sugarCheckMark;
-        public Image butterCheckMark;
-        public Image pecansCheckMark;
+        public Image checkMarkOne;
+        public Image checkMarkTwo;
+        public Image checkMarkThree;
+        public Image checkMarkFour;
+        public Image checkMarkFive;
 
         private void Update()
         {
-            if (flour != null)
+            if (ingredientOne != null)
             {
-                flourCheckMark.gameObject.SetActive(false);
+                checkMarkOne.gameObject.SetActive(false);
             }
             else
             {
-                flourCheckMark.gameObject.SetActive(true);
+                checkMarkOne.gameObject.SetActive(true);
             }
 
-            if(egg != null)
+            if(ingredientTwo != null)
             {
-                eggCheckMark.gameObject.SetActive(false);
+                checkMarkTwo.gameObject.SetActive(false);
             }
             else
             {
-                eggCheckMark.gameObject.SetActive(true);
+                checkMarkTwo.gameObject.SetActive(true);
             }
 
-            if (sugar != null)
+            if (ingredientThree != null)
             {
-                sugarCheckMark.gameObject.SetActive(false);
+                checkMarkThree.gameObject.SetActive(false);
             }
             else
             {
-                sugarCheckMark.gameObject.SetActive(true);
+                checkMarkThree.gameObject.SetActive(true);
             }
 
-            if(pecans != null)
+            if(ingredientFour != null)
             {
-                pecansCheckMark.gameObject.SetActive(false);
+                checkMarkFour.gameObject.SetActive(false);
             }
             else
             {
-                pecansCheckMark.gameObject.SetActive(true);
+                checkMarkFour.gameObject.SetActive(true);
             }
 
-            if(butter != null)
+            if(ingredientFive != null)
             {
-                butterCheckMark.gameObject.SetActive(false);
+                checkMarkFive.gameObject.SetActive(false);
             }
             else
             {
-                butterCheckMark.gameObject.SetActive(true);
+                checkMarkFive.gameObject.SetActive(true);
             }
         }
     }

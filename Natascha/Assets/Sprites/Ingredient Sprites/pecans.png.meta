@@ -164,7 +164,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pecans_0: -5336785979922053777
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
