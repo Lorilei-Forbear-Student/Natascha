@@ -15,7 +15,7 @@ namespace Natascha
         {
             if (collider.CompareTag("Player") && flour == null && egg == null && sugar == null && pecans == null && butter == null)
             {
-                    GameManager.instance.LoadScene("Level 2");
+                    GameManager.instance.LoadScene("Level 2 Complete");
                     Debug.Log("Loading next scene...");
             }
         }

@@ -24,10 +24,5 @@ namespace Natascha
         {
             SceneManager.LoadScene(newSceneName);
         }
-        public void Quit()
-        {
-            Debug.Log("Quitting...");
-            Application.Quit();
-        }
     }
 }

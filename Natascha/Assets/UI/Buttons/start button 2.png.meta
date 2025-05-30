@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 103f3ad2ddfe6f74cbb87b14c6c1d027
+guid: 8e0abe0e98e51c544b6015880028704a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7098620459927840474
-    second: menu_2_0
+      213: 4686407934341703982
+    second: start button 2_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -107,6 +107,18 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -122,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: menu_2_0
+      name: start button 2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 400
-        height: 600
+        x: 189
+        y: 459
+        width: 612
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,8 +148,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad6a15db2bd538260800000000000000
-      internalID: 7098620459927840474
+      spriteID: e296207cf27790140800000000000000
+      internalID: 4686407934341703982
       vertices: []
       indices: 
       edges: []
@@ -152,7 +164,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      start button 2_0: 4686407934341703982
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

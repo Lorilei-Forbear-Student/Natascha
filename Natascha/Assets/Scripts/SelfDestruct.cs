@@ -21,7 +21,7 @@ namespace Natascha
         IEnumerator Destroy()
         {
             yield return new WaitForSeconds(1);
-            Destroy(gameObject);
+            SelfDestruct.Destroy(gameObject);
         }
     }
 }
